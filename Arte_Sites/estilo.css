@@ -1,0 +1,214 @@
+    * {
+        font-family: sans-serif;
+    }
+    
+    body {
+        background-color: #464747;
+    }
+    
+    header {
+        margin-top: 0;
+    }
+    
+    .cabecalho ul {
+        background-color: #1cad2f;
+        height: 35px;
+        margin: 0;
+    }
+    
+    .cabecalho ul li {
+        display: inline-block;
+        padding: 7px;
+        border: 0;
+    }
+    
+    .color {
+        color: black;
+    }
+    
+    .color2 {
+        color: white;
+    }
+    
+    .telefone {
+        position: absolute;
+        right: 130px;
+        top: 11px;
+        color: white
+    }
+    
+    .button {
+        position: absolute;
+        right: 35px;
+        border: black;
+        height: 30px;
+        width: 85px;
+        background-color: #816716b0;
+        top: 11px;
+        transition: .2s;
+    }
+    
+    .caixa {
+        position: absolute;
+        right: 40px;
+        top: 2px;
+    }
+    
+    .button:hover {
+        background-color: #816716b0;
+        border-radius: #f2c025;
+        border-color: #f2c025;
+        transition: .2s;
+    }
+    
+    .login {
+        position: absolute;
+        right: 13px;
+        top: 7px;
+        color: white;
+        opacity: 100%;
+        text-emphasis-color: white;
+        margin: 0;
+    }
+    
+    .login:hover {
+        color: #f2c025;
+    }
+    
+    .img {
+        padding: 10px;
+        width: 250px;
+        height: 180px;
+    }
+    
+    .casa {
+        opacity: 100%;
+        text-emphasis-color: white;
+        margin: 0;
+        position: relative;
+        top: -145px;
+        left: 400px;
+        height: 30px;
+        width: 82px;
+        background-color: gray;
+        color: white;
+        margin: 0;
+    }
+    
+    #menu ul {
+        margin: 0;
+        padding: 5px;
+    }
+    
+    #menu ul li {
+        display: inline-block;
+        padding: 40px;
+        position: relative;
+        top: -145px;
+        left: 400px
+    }
+    
+    .login2 {
+        position: relative;
+        top: -1px;
+        left: 2px;
+        color: white;
+        opacity: 100%;
+        text-emphasis-color: white;
+        margin: 0;
+        font-size: large;
+    }
+    
+    .container1 {
+        width: 1000px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        display: flex;
+        position: absolute;
+        top: 1000px;
+        left: 50%;
+        right: 50%;
+        transform: translate( -50%, -50%);
+    }
+    
+    .container1 .card {
+        position: relative;
+        transition: 0.5s;
+        border-radius: 10px;
+    }
+    
+    .container1 .card .face {
+        width: 230px;
+        height: 140px;
+        transition: 0.5s;
+    }
+    
+    .container1 .card:hover .face {
+        width: 230px;
+        height: 160px;
+        transition: 0.5s;
+    }
+    
+    .container1 .card .face.face1 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+    }
+    
+    .container1 .card .face.face1 {
+        transition: 0.3s;
+        background: #1cad2f;
+    }
+    
+    .container1 .card:hover .face.face1 {
+        transition: 0.3s;
+        background: #f2c025;
+    }
+    
+    .container1 .card .face.face2 {
+        position: relative;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        box-sizing: border-box;
+        box-shadow: 0 20px 50px rgb(0, 0, 0, 0.5);
+    }
+    
+    .container1 .card .face.face2 .content1 p {
+        margin: 0;
+        padding: 0;
+        color: #fff;
+    }
+    
+    .container1 .card .face.face2 .content1 a {
+        margin: 15px 0 0;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: 900;
+        color: black;
+        padding: 5px;
+        border: 1px solid white;
+        transition: 0.3s;
+    }
+    
+    .container1 .card .face.face2 .content1 a:hover {
+        background: #fff;
+        color: #333;
+        transition: 0.3s;
+    }
+    
+    .img2 {
+        display: flex;
+        align-items: center;
+        height: 400px;
+        width: 1000px;
+        position: absolute;
+        top: 300px;
+        left: 430px;
+    }

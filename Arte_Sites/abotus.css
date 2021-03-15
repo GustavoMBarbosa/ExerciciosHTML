@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(224, 40, 40);
+    height: 175%;
+}
+section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+}
+section .contain{
+    position: relative;
+    min-width: 1100px;
+    min-height: 550px;
+    display: flex;
+    z-index: 1000;
+}
+section .contain .nos{
+    position: absolute;
+    top: 30px;
+    width: 350px;
+    height: calc(100% - 50px);
+    background: rgb(224, 40, 40);
+    z-index: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+}
+section .contain .nos h2{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+section .contain .nos h2:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(224, 40, 40);
+}
+section .contain .nos .inf{
+    position: relative;
+    margin: 20px 0;
+}
+section .contain .nos .pp{
+    
+    height: auto;
+}
+section .contain .nos2{
+    position: top;
+    padding: 45px 10px;
+    background: #fff;
+    margin-left: 150px;
+    padding-left: 230px;
+    width:  calc(100% - 20px);
+    height: 165%;
+    box-shadow: 0 50px 50px rgba(0,0,0,0.5);
+}
+section .contain .nos2 h2{
+    text-indent:  2px;
+}
+section .contain .nos2 p:hover{
+    background-color:rgb(224, 40, 40);
+    color: #fff;
+}

@@ -1,0 +1,85 @@
+#grid { display: grid;
+    grid:
+    "header header header header header" 1fr
+    "aside link1 article1 article1 article1" 1fr
+    "aside link2 article1 article1 article1" 1fr
+    "aside player player image image" 1fr
+    "aside article2 article2 image image" 2fr
+    "aside article2 article2 link3 link4" 1fr
+    "aside footer footer footer footer" 1fr
+    / 2fr 1.5fr 1.5fr 1fr 1fr;
+}
+
+div { display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header { grid-area: header;
+    margin: 2px;
+    font-size: 2vw;
+    color: white;
+    background-color: #2e2c9c;
+}
+
+.aside { grid-area: aside;
+    margin: 2px;
+    font-size: 2vw;
+    background-color: #ffdb61;
+}
+
+.link1 { grid-area: link1;
+    margin: 2px;
+    font-size: 2vw;
+    background-color: #00a0ff;
+}
+
+.link2 { grid-area: link2;
+    margin: 2px;
+    font-size: 2vw;
+    background-color: #00a0ff;
+}
+
+.link3 { grid-area: link3;
+    margin: 2px;
+    font-size: 2vw;
+    background-color: #ff5ffc;
+}
+
+.link4 { grid-area: link4;
+    margin: 2px;
+    font-size: 2vw;
+    background-color: #ff5ffc;
+}
+
+.article1 { grid-area: article1;
+    margin: 2px;
+    font-size: 2vw;
+    color: white;
+    background-color: #a100ff;
+}
+
+.article2 { grid-area: article2;
+    margin: 2px;
+    font-size: 2vw;
+    background-color: #75e266;
+}
+
+.player { grid-area: player;
+    margin: 2px;
+    font-size: 2vw;
+    background-color: #00bfbf;
+}
+
+.image { grid-area: image;
+    margin: 2px;
+    font-size: 2vw;
+    background-color: #ff805c;
+}
+
+.footer { grid-area: footer;
+    margin: 2px;
+    font-size: 2vw;
+    color: white;
+    background-color: #414141;
+}
